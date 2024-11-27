@@ -1,7 +1,7 @@
 ![image](https://user-images.githubusercontent.com/82112471/191800203-0563a725-4b6a-4caf-9d3b-29239960b0d6.png)
 
 # ps-microphone
-Script to enhance as a microphone/loudspeaker when an user enters a define zoned. 
+Script which enables louder and further speaking when a player enters the predefined zone.
 
 # Installation
 
@@ -10,11 +10,6 @@ Script to enhance as a microphone/loudspeaker when an user enters a define zoned
 * Download file and make sure it's named ps-microphone
 * Ensure ps-microphone 
 
-* Add image to your inventory folder for the megaphone.
-* Add to qb-core > shared > items.lua
-```
-	["megaphone"]						= {["name"] = "megaphone",			["label"] = "Megaphone",		["weight"] = 20000,	["type"] = "item",	["image"] = "megaphone.png",	["unique"] = true,	["useable"] = true,	["shouldClose"] = false,	["combinable"] = nil,	   ["description"] = "A loudspeaker to yell at civilians."},
-```
 
 ## For Zones
 - Add more zones under the Config.MicrophoneZones
@@ -42,8 +37,7 @@ Config.MicrophoneZones = {
 
 # Dependecies
 * Latest [pma-voice](https://github.com/AvarianKnight/pma-voice) 
-* [ps-zones](https://github.com/Project-Sloth/ps-zones)
-* [lj-inventory](https://github.com/loljoshie/lj-inventory)
+* [ox-lib](https://github.com/overextended/ox_lib)
 
 # Credits 
 * [Snipe](https://github.com/pushkart2)
